@@ -1,0 +1,10 @@
+github.com/artyom/autoflags v1.1.0 h1:Cz3qb/qSkhmt/Zgsu3D/HwMJtKYUSV5kctI6O9bekv4=
+github.com/artyom/autoflags v1.1.0/go.mod h1:Th9KgAVvFcYp7t8b//Pu21xHjExLpzr4SXCbwVbHL7Y=
+github.com/artyom/ping v0.0.0-20180120203215-e7d66403f7ac h1:+jNoFmoidDd5EumJA8Pok1nZZDyWOmeKwjAazuvRs8w=
+github.com/artyom/ping v0.0.0-20180120203215-e7d66403f7ac/go.mod h1:WHp79MbPfrhr2vDVBkLL431SWNBznOvOTtv5ggxYe08=
+golang.org/x/net v0.0.0-20180629035331-4cb1c02c05b0 h1:eOjEPieBzQ+rKOvQTqwbkm/0BdWz2JQwUzaa97tcZ8k=
+golang.org/x/net v0.0.0-20180629035331-4cb1c02c05b0/go.mod h1:mL1N/T3taQHkDXs73rZJwtUhF3w3ftmwwsq0BUmARs4=
+golang.org/x/net/icmp v0.0.0-20180629035331-4cb1c02c05b0/go.mod h1:G7mAYYxgmS0lVkHyy2hEOLQCFB0DlQFTMLWggykrydY=
+golang.org/x/sync v0.0.0-20180314180146-1d60e4601c6f h1:wMNYb4v58l5UBM7MYRLPG6ZhfOqbKu7X5eyFl8ZhKvA=
+golang.org/x/sync v0.0.0-20180314180146-1d60e4601c6f/go.mod h1:RxMgew5VJxzue5/jJTE5uejpjVlOe/izrB70Jof72aM=
+golang.org/x/sync/errgroup v0.0.0-20180314180146-1d60e4601c6f/go.mod h1:G7mAYYxgmS0lVkHyy2hEOLQCFB0DlQFTMLWggykrydY=

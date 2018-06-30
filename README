@@ -1,0 +1,12 @@
+Command protonvpn-profiles creates macOS/iOS profile with ProtonVPN IKEv2
+profiles from zip file containing OpenVPN configuration.
+
+Go to your ProtonVPN account, under Account section copy your username and
+password from OpenVPN/IKEv2 Username/Password fields. Under Downloads
+section use Download All Configurations in country or server configs, this
+will give you single zip file with OpenVPN profiles.
+
+Run:
+
+    protonvpn-profiles -zip ProtonVPN_server_configs.zip \
+    	-user $USER -pass $PASSWORD
