@@ -102,6 +102,9 @@ func run(args runArgs) error {
 			}
 		}
 	}
+	if len(profiles) == 0 || ca == nil {
+		return fmt.Errorf("none of the profiles match")
+	}
 	pemBytes, err := headlessPEMEncode(ca)
 	if err != nil {
 		return err
