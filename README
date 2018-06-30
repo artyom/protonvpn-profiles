@@ -10,3 +10,11 @@ Run:
 
     protonvpn-profiles -zip ProtonVPN_server_configs.zip \
     	-user $USER -pass $PASSWORD
+
+You can also limit what configurations to import and set single server as
+on-demand VPN connection:
+
+    protonvpn-profiles -zip ProtonVPN_server_configs.zip \
+    	-user $USER -pass $PASSWORD \
+    	-match '^us-.*\.protonvpn\.com$' \
+    	-ondemand us-ca-01.protonvpn.com
